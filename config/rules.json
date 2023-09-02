@@ -1,0 +1,5 @@
+[
+	{"field": "subject", "predicate": "contains", "value": "test"},
+	{"field": "from", "predicate": "contains", "value": "rishabh"},
+	{"field": "date_received", "predicate": "less than days", "value": "2"}
+]

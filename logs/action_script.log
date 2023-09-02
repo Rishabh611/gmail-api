@@ -1,0 +1,17 @@
+2023-09-02 18:14:24,409 - INFO - The predicate for collection of rules is f"AND"
+2023-09-02 18:14:24,412 - INFO - Total 3 rules found.
+2023-09-02 18:14:24,431 - ERROR - 'COPE'
+2023-09-02 18:16:49,382 - INFO - The predicate for collection of rules is "AND"
+2023-09-02 18:16:49,382 - INFO - Total 3 rules found.
+2023-09-02 18:16:49,382 - ERROR - An error occured: 'COPE'
+2023-09-02 18:17:11,706 - INFO - The predicate for collection of rules is "AND"
+2023-09-02 18:17:11,722 - INFO - Total 3 rules found.
+2023-09-02 18:17:11,722 - ERROR - An error occured: 'COPE'
+2023-09-02 18:18:22,857 - INFO - The predicate for collection of rules is "AND"
+2023-09-02 18:18:22,857 - INFO - Total 3 rules found.
+2023-09-02 18:18:23,336 - INFO - Total 0 new emails found satisfying the rules.
+2023-09-02 18:18:23,336 - INFO - Action UNREAD configured for the filtered emails.
+2023-09-02 19:39:09,173 - INFO - The predicate for collection of rules is "AND"
+2023-09-02 19:39:09,189 - INFO - Total 3 rules found.
+2023-09-02 19:39:09,549 - INFO - Total 0 new emails found satisfying the rules.
+2023-09-02 19:39:09,549 - INFO - Action UNREAD configured for the filtered emails.
