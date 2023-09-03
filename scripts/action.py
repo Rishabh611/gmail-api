@@ -5,7 +5,14 @@ from datetime import datetime, timedelta
 import configparser
 import logging  # Import the logging module
 from .helper import fetch_creds, db_setup
+log_file_path = './logs/action_script.log'
 
+# Check if the log file exists
+if not os.path.isfile(log_file_path):
+    # If the file doesn't exist, create it (the 'w' mode will create a new file if it doesn't exist)
+    with open(log_file_path, 'w') as file:
+        # Optionally, write an initial message to the log file
+        file.write('Log file created.')
 # Configure the logging
 logging.basicConfig(filename='./logs/action_script.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

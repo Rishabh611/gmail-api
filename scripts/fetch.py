@@ -8,6 +8,14 @@ from googleapiclient.errors import HttpError
 import logging  # Import the logging module
 from .helper import email_exists, fetch_creds, get_last_fetch_time, db_setup
 
+log_file_path = './logs/fetch_script.log'
+
+# Check if the log file exists
+if not os.path.isfile(log_file_path):
+    # If the file doesn't exist, create it (the 'w' mode will create a new file if it doesn't exist)
+    with open(log_file_path, 'w') as file:
+        # Optionally, write an initial message to the log file
+        file.write('Log file created.')
 # Configure the logging
 logging.basicConfig(filename='./logs/fetch_script.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
