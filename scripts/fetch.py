@@ -8,6 +8,12 @@ from googleapiclient.errors import HttpError
 import logging  # Import the logging module
 from .helper import email_exists, fetch_creds, get_last_fetch_time, db_setup
 
+log_directory = './logs/'
+
+# Ensure the log directory exists; create it if it doesn't
+if not os.path.exists(log_directory):
+    os.makedirs(log_directory)
+    
 log_file_path = './logs/fetch_script.log'
 
 # Check if the log file exists

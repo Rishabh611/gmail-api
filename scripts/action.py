@@ -5,6 +5,11 @@ from datetime import datetime, timedelta
 import configparser
 import logging  # Import the logging module
 from .helper import fetch_creds, db_setup
+log_directory = './logs/'
+
+# Ensure the log directory exists; create it if it doesn't
+if not os.path.exists(log_directory):
+    os.makedirs(log_directory)
 log_file_path = './logs/action_script.log'
 
 # Check if the log file exists
