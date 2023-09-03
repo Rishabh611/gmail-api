@@ -50,6 +50,8 @@ def get_last_fetch_time():
 def db_setup():
     # Define the database filename
     print("db setup")
+    if not os.path.exists("./db"):
+        os.makedirs("./db")
     # Connect to the database (it will be created if it doesn't exist)
     connection = sqlite3.connect( "./db/mail.db")
     cursor = connection.cursor()
